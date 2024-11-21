@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 330px 540px;
+  max-width: 900px;
+  width: 100%;
+  height: 1100px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Left Panel */
+.left-panel {
+  background-color: #2c2c2c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+}
+
+.left-panel .text-content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-panel .text-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.left-panel .contact h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.left-panel .contact p {
+  margin: 0 0 10px;
+}
+
+.left-panel .contact a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.left-panel .contact a:hover {
+  text-decoration: underline;
+}
+
+/* Right Panel */
+.right-panel {
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%; 
+}
+
+.right-panel .education {
+  margin-bottom: 30px;
+}
+
+.right-panel .timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-panel .timeline-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-panel .year {
+  font-weight: bold;
+  color: #333;
+}
+
+.right-panel .description {
+  flex: 1;
+  margin-left: 10px;
+  color: #555;
+}
+
+.right-panel .homework-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.right-panel .homework-list ul li {
+  margin-bottom: 10px;
+}
+
+.right-panel .homework-list ul li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.right-panel .homework-list ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Music Section */
+.favorite-music .music-covers {
+  display: flex;
+  justify-content: center; /* 置中 */
+  gap: 20px; /* 照片間距 */
+  flex-wrap: wrap; /* 自動換行 */
+}
+
+.favorite-music .music-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.favorite-music .music-item img {
+  width: 75px;  /* 統一寬度 */
+  height: 75px; /* 統一高度 */
+  object-fit: cover; /* 確保圖片不變形 */
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.favorite-music .music-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.favorite-music .note {
+  font-size: 12px;
+  color: #777;
+  margin-top: 15px;
+}
