@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 1150px;
-    background-color: #e6e6e6;
+    background-color: #FAF4FF;
 }
 
 .photo-panel {
@@ -38,7 +38,7 @@ body {
 .text-content {
     flex-grow: 1;
     padding: 20px;
-    background-color: #e6e6e6;
+    background-color: #FAF4FF;
 }
 
 h1 {
